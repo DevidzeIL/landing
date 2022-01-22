@@ -25,37 +25,31 @@
 
 
 .hero__btn{
-    text-transform: uppercase;
     padding: 20px 50px;
     border: none;
 }
 
 #hero-white-btn{
     background: #FFF;
-    color: #4A4A4A;
 }
 
 #hero-orange-btn{
     background: linear-gradient(0deg, #FF7E03, #FF7E03);
-    color: #FFF;
 }
 
 
 .header__btn{
-    text-transform: uppercase;
     padding: 13px 40px;
     box-sizing: border-box;
 }
 
 #header-white-btn{
     background: none;
-    color: #FFF;
     border: 1px solid #FFFFFF;
 }
 
 #header-grey-btn{
     background: none;
-    color: #4A4A4A;
     border: 1px solid #4A4A4A;
 }
 
@@ -92,8 +86,7 @@
     background: url(/assets/man.png);
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: contain;
-
+    background-size: 115vh;
 }
 
 .block__1__register{
@@ -133,11 +126,21 @@
     background: #353535;
 }
 
-.when_n_where_table{
+.when__n__where__table{
     border: 1px #FFF  solid;
     width: 100%;
-    padding: 1em 3em;
+    padding: 2em 5em;
 
+}
+.when__n__where__table td{
+    padding-right: 100px;
+}
+
+#when-n-where-table-1{
+    padding-bottom: 30px;
+}
+#when-n-where-table-5{
+    padding-bottom: 30px;
 }
 
 
@@ -259,6 +262,11 @@
     display: inherit;
     align-items: center;
     gap: 25px;
+}
+
+.hero__btn__social{
+    padding: 13px 32px;
+    border: none;
 }
 
 .footer{
