@@ -1,3 +1,5 @@
+@import 'vars';
+
 /* Общие стили */
 
 *{
@@ -30,11 +32,11 @@
 }
 
 #hero-white-btn{
-    background: #FFF;
+    background: $whiteColor;
 }
 
 #hero-orange-btn{
-    background: linear-gradient(0deg, #FF7E03, #FF7E03);
+    background: $orangeColor;
 }
 
 
@@ -45,12 +47,12 @@
 
 #header-white-btn{
     background: none;
-    border: 1px solid #FFFFFF;
+    border: 1px solid $whiteColor;
 }
 
 #header-grey-btn{
     background: none;
-    border: 1px solid #4A4A4A;
+    border: 1px solid $greyColor;
 }
 
 
@@ -127,7 +129,7 @@
 }
 
 .when__n__where__table{
-    border: 1px #FFF  solid;
+    border: 1px $whiteColor  solid;
     width: 100%;
     padding: 2em 5em;
 
