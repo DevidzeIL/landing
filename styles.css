@@ -25,37 +25,31 @@
 
 
 .hero__btn{
-    text-transform: uppercase;
     padding: 20px 50px;
     border: none;
 }
 
 #hero-white-btn{
     background: #FFF;
-    color: #4A4A4A;
 }
 
 #hero-orange-btn{
     background: linear-gradient(0deg, #FF7E03, #FF7E03);
-    color: #FFF;
 }
 
 
 .header__btn{
-    text-transform: uppercase;
     padding: 13px 40px;
     box-sizing: border-box;
 }
 
 #header-white-btn{
     background: none;
-    color: #FFF;
     border: 1px solid #FFFFFF;
 }
 
 #header-grey-btn{
     background: none;
-    color: #4A4A4A;
     border: 1px solid #4A4A4A;
 }
 
@@ -87,11 +81,12 @@
     text-align: center;
 }
 
-#hero-1{
-    background: url(/assets/man.png);
-    background-position: top;
-    background-repeat: no-repeat;
 
+#container-1{
+    background: url(/assets/man.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 115vh;
 }
 
 .block__1__register{
@@ -131,11 +126,21 @@
     background: #353535;
 }
 
-.when_n_where_table{
+.when__n__where__table{
     border: 1px #FFF  solid;
     width: 100%;
-    padding: 1em 3em;
+    padding: 2em 5em;
 
+}
+.when__n__where__table td{
+    padding-right: 100px;
+}
+
+#when-n-where-table-1{
+    padding-bottom: 30px;
+}
+#when-n-where-table-5{
+    padding-bottom: 30px;
 }
 
 
@@ -147,16 +152,15 @@
 }
 
 .who__table__td{
-    background: #F8F8F8;
-    opacity: 0.86;
+    background: rgb(248, 248, 248, 0.86);
     padding: 3em;
     width: 20em;
+    z-index: -1;
 
 }
 
 .who__table__img{
     margin-bottom: -7em;
-    z-index: 999;
 }
 
 
@@ -178,6 +182,32 @@
 
 #who-table-td-right{
     text-align: right;
+}
+
+
+.bg__hands{
+    position: absolute;
+    width: 100%;
+    margin-top: -35em;
+    z-index: -1;
+}
+
+#bg-hand-left{
+    background: url(/assets/hands/hand-left.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    width: 50em;
+    height: 15em;
+}
+
+#bg-hand-right{
+    background: url(/assets/hands/hand-right.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    width: 50em;
+    height: 15em;
 }
 
 
@@ -232,6 +262,11 @@
     display: inherit;
     align-items: center;
     gap: 25px;
+}
+
+.hero__btn__social{
+    padding: 13px 32px;
+    border: none;
 }
 
 .footer{
